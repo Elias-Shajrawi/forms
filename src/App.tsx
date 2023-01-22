@@ -1,8 +1,12 @@
 import React from "react";
+import { PersonForm } from "./components/person/person.component";
+
 import "./app.css";
 
-function App() {
-  return <div className=""></div>;
+export function App() {
+  return (
+    <div className="main-container">
+      <PersonForm className="person-form"></PersonForm>
+    </div>
+  );
 }
-
-export default App;
